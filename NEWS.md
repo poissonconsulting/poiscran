@@ -2,7 +2,7 @@
 
 ## v0.0.5
 
-- Added packages rgdal
+- Added package rgdal
 
 ## v0.0.4
  

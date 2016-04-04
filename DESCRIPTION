@@ -1,6 +1,6 @@
 Package: poiscran
 Title: Attaches CRAN Packages Used by Poison Consulting Projects
-Version: 0.0.2
+Version: 0.0.5
 Date: 2016-04-04
 Authors@R: person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
