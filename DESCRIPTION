@@ -1,6 +1,6 @@
 Package: poiscran
 Title: Attaches CRAN Packages Used by Poison Consulting Projects
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 Depends:
@@ -13,11 +13,11 @@ Depends:
     stringr,
     lubridate,
     tidyr,
-    readr,
-    readxl,
     ggplot2,
     scales,
     ggrepel,
+    readr,
+    readxl,
     beepr
 License: MIT + file LICENSE
 LazyData: true
