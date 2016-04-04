@@ -5,28 +5,28 @@ Date: 2016-04-04
 Authors@R: person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 Depends:
-    R (>= 3.1.0),
-    devtools,
-    magrittr,
-    knitr,
-    plyr,
-    dplyr,
-    stringr,
-    lubridate,
-    tidyr,
+    R (>= 3.2.0),
     assertr,
     assertthat,
+    beepr,
     datacheckr,
     doParallel,
+    devtools,
     ggplot2,
-    scales,
-    purrr,
     ggrepel,
-    rjags,
-    readr,
+    knitr,
+    plyr,
     readxl,
+    rjags,
     rpdo,
-    beepr
+    scales,
+    stringr,
+    purrr,
+    readr,
+    lubridate,
+    tidyr,
+    magrittr,
+    dplyr,
 License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 5.0.1
