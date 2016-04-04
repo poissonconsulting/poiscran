@@ -1,0 +1,24 @@
+Package: poiscran
+Title: Attaches CRAN Packages Used by Poison Consulting Projects
+Version: 0.0.0.9000
+Authors@R: person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends:
+    R (>= 3.1.0),
+    devtools,
+    magrittr,
+    knitr,
+    plyr,
+    dplyr,
+    stringr,
+    lubridate,
+    tidyr,
+    readr,
+    readxl,
+    ggplot2,
+    scales,
+    ggrepel,
+    beepr
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 5.0.1
