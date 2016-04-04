@@ -1,9 +1,12 @@
 # poiscran NEWS
 
+## v0.0.5
+
+- Added packages rgdal
+
 ## v0.0.4
  
 - Added packages rgeos, sp
-
 
 ## v0.0.3
  

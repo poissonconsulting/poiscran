@@ -17,6 +17,7 @@ Depends:
     knitr,
     plyr,
     readxl,
+    rgdal,
     rgeos,
     rjags,
     rpdo,
@@ -29,6 +30,11 @@ Depends:
     tidyr,
     magrittr,
     dplyr,
+SystemRequirements:
+    JAGS (>= 4.2.0),
+    GDAL (>= 1.6.3),
+    PROJ (>= 4.4.9),
+    GEOS (>= 3.2.0)
 License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 5.0.1
