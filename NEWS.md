@@ -1,5 +1,9 @@
 # poiscran NEWS
 
+## v0.0.6
+
+- Added package abind
+
 ## v0.0.5
 
 - Added package rgdal
