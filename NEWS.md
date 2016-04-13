@@ -1,16 +1,20 @@
 # poiscran NEWS
 
+## v0.0.7
+
+- Add package reshape2
+
 ## v0.0.6
 
-- Added package abind
+- Add package abind
 
 ## v0.0.5
 
-- Added package rgdal
+- Add package rgdal
 
 ## v0.0.4
  
-- Added packages rgeos, sp
+- Add packages rgeos, sp
 
 ## v0.0.3
  
@@ -18,7 +22,7 @@
 
 ## v0.0.2
 
-- Added packages assertr, assertthat, datacheckr, doParallel, purrr, rjags and rpdo.
+- Add packages assertr, assertthat, datacheckr, doParallel, purrr, rjags and rpdo.
     
 ## v0.0.1
 
