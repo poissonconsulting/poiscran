@@ -1,9 +1,9 @@
 Package: poiscran
-Title: Attaches CRAN Packages Used by Poison Consulting Projects
-Version: 0.0.7
-Date: 2016-04-12
+Title: Attach CRAN Packages Used by Poison Consulting
+Version: 0.0.8
+Date: 2016-04-22
 Authors@R: person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: Attaches CRAN Packages Used by Poison Consulting Projects.
 Depends:
     R (>= 3.2.0),
     abind,
@@ -16,12 +16,14 @@ Depends:
     ggplot2,
     ggrepel,
     knitr,
+    markdown,
     plyr,
     readxl,
     reshape2,
     rgdal,
     rgeos,
     rjags,
+    rmarkdown,
     rpdo,
     scales,
     sp,

@@ -1,5 +1,9 @@
 # poiscran NEWS
 
+## v0.0.8
+
+- Add packages markdown and rmarkdown
+
 ## v0.0.7
 
 - Add package reshape2
