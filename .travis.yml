@@ -4,4 +4,4 @@ cache: packages
 
 apt_packages:
  - jags
- - gdal
+ - gdal-bin
