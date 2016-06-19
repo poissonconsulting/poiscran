@@ -1,7 +1,7 @@
 Package: poiscran
 Title: Attach CRAN Packages Used by Poison Consulting
-Version: 0.0.8
-Date: 2016-04-22
+Version: 0.1.0
+Date: 2016-06-19
 Authors@R: person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre"))
 Description: Attaches CRAN Packages Used by Poison Consulting Projects.
 Depends:
@@ -13,6 +13,7 @@ Depends:
     datacheckr,
     doParallel,
     devtools,
+    feather,
     ggplot2,
     ggrepel,
     knitr,
