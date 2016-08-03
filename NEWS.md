@@ -1,5 +1,9 @@
 # poiscran NEWS
 
+#### v0.1.1
+
+- Removed package feather as Travis testing problems
+
 ### v0.1.0
 
 - Added package feather
