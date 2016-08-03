@@ -2,6 +2,6 @@ language: R
 sudo: required
 cache: packages
 
-apt_packages:
- - jags
- - gdal-bin
+r_binary_packages:
+ - rjags
+ - rgdal
