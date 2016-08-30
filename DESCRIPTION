@@ -24,8 +24,6 @@ Depends:
     poiscon (>= 0.10.0),
     readxl,
     reshape2,
-    rgdal,
-    rgeos,
     rjags,
     rmarkdown,
     rpdo,
@@ -48,10 +46,7 @@ Remotes:
     poissonconsulting/jaggernaut@v2.4.1,
     poissonconsulting/reporting@v0.3.4
 SystemRequirements:
-    JAGS (>= 4.2.0),
-    GDAL (>= 1.6.3),
-    PROJ (>= 4.4.9),
-    GEOS (>= 3.2.0)
+    JAGS (>= 4.2.0)
 License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 5.0.1

@@ -3,6 +3,7 @@
 ### v0.2.0
 
 - Added GitHub packages
+- Remove rgdal and rgeos
 
 #### v0.1.1
 
