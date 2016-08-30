@@ -1,18 +1,29 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
 [![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/poiscran.svg?branch=master)](https://travis-ci.org/poissonconsulting/poiscran)
 
-poiscran
-========
+# poiscran
 
 Attaches CRAN and GitHub Packages Used by Poison Consulting Analysis Projects.
 
-Installation
-------------
+## Installation
 
 To install and load `poiscran` execute the following code at the R terminal:
-
-    # install.packages("devtools")
-    library(devtools)
-    install_github("poissonconsulting/poiscran")
-    library(poiscran)
+```
+# install.packages("devtools")
+library(devtools)
+install_github("poissonconsulting/poiscran")
+library(poiscran)
+```

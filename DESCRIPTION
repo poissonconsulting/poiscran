@@ -1,9 +1,9 @@
 Package: poiscran
-Title: Attach CRAN Packages Used by Poison Consulting
-Version: 0.1.1
-Date: 2016-07-22
+Title: Attach CRAN and GitHub Packages Used by Poison Consulting
+Version: 0.2.0
+Date: 2016-08-30
 Authors@R: person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre"))
-Description: Attaches CRAN Packages Used by Poison Consulting Projects.
+Description: Attaches CRAN and GitHub Packages Used by Poison Consulting Projects.
 Depends:
     R (>= 3.2.0),
     abind,
@@ -11,13 +11,17 @@ Depends:
     assertthat,
     beepr,
     datacheckr,
+    datalist (>= 0.5.2),
     doParallel,
     devtools,
     ggplot2,
     ggrepel,
+    jaggernaut (>= 2.4.1),
+    juggler (>= 0.1.5),
     knitr,
     markdown,
     plyr,
+    poiscon (>= 0.10.0),
     readxl,
     reshape2,
     rgdal,
@@ -28,12 +32,21 @@ Depends:
     scales,
     sp,
     stringr,
+    tulip (>= 0.0.13),
     purrr,
     readr,
+    reporting (>= 0.3.4),
     lubridate,
     tidyr,
     magrittr,
-    dplyr,
+    dplyr
+Remotes:
+    poissonconsulting/tulip@v0.0.13,
+    poissonconsulting/poiscon@v0.10.0,
+    poissonconsulting/datalist@v0.5.2,
+    poissonconsulting/juggler@v0.1.5,
+    poissonconsulting/jaggernaut@v2.4.1,
+    poissonconsulting/reporting@v0.3.4
 SystemRequirements:
     JAGS (>= 4.2.0),
     GDAL (>= 1.6.3),
