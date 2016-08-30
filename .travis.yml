@@ -4,4 +4,3 @@ cache: packages
 
 r_binary_packages:
  - rjags
- - rgdal
