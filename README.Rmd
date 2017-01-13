@@ -13,17 +13,24 @@ knitr::opts_chunk$set(
 ```
 
 [![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/poiscran.svg?branch=master)](https://travis-ci.org/poissonconsulting/poiscran)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/poiscran?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/poiscran)
 
 # poiscran
 
-Attaches CRAN and GitHub Packages Used by Poison Consulting Analysis Projects.
+Attaches CRAN and GitHub Packages Used in Poison Consulting analyses.
 
 ## Installation
 
 To install and load `poiscran` execute the following code at the R terminal:
 ```
 # install.packages("devtools")
-library(devtools)
-install_github("poissonconsulting/poiscran")
+devtools::install_github("poissonconsulting/poiscran")
 library(poiscran)
+```
+
+## Demonstration
+```{r}
+search()
+library(poiscran)
+search()
 ```

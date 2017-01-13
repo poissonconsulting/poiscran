@@ -1,6 +1,9 @@
 language: R
-sudo: required
 cache: packages
+
+r:
+  - release
+  - devel
 
 r_binary_packages:
  - rjags
