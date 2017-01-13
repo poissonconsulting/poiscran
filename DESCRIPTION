@@ -1,6 +1,6 @@
 Package: poiscran
 Title: Attach R Packages used by Poison Consulting
-Version: 0.2.1.9000
+Version: 0.3.0
 Date: 2017-01-13
 Authors@R: person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre"))
 Description: Attaches CRAN and GitHub Packages commonly used in Poison Consulting analyses in the preferred order.
