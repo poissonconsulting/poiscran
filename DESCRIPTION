@@ -18,10 +18,12 @@ Depends:
     knitr,
     markdown,
     poisplot,
+    poisutils,
     plyr,
     readxl,
     reshape2,
     rmarkdown,
+    RSQLite,
     scales,
     stringr,
     subfoldr,
@@ -34,6 +36,7 @@ Depends:
     tmbr,
     jmbr
 Remotes:
+    poissonconsulting/poisutils,
     poissonconsulting/poisplot,
     poissonconsulting/subfoldr,
     poissonconsulting/jmbr,
