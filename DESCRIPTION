@@ -17,6 +17,7 @@ Depends:
     ggrepel,
     knitr,
     markdown,
+    poisix,
     poisplot,
     poisutils,
     plyr,
@@ -36,6 +37,7 @@ Depends:
     tmbr,
     jmbr
 Remotes:
+    poissonconsulting/poisix,
     poissonconsulting/poisutils,
     poissonconsulting/poisplot,
     poissonconsulting/subfoldr,
