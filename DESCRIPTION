@@ -20,7 +20,6 @@ Depends:
     poisix,
     poisplot,
     poisutils,
-    poismap,
     plyr,
     readxl,
     reshape2,
@@ -41,7 +40,6 @@ Remotes:
     poissonconsulting/poisix,
     poissonconsulting/poisutils,
     poissonconsulting/poisplot,
-    poissonconsulting/poismap,
     poissonconsulting/subfoldr,
     poissonconsulting/jmbr,
     poissonconsulting/tmbr
