@@ -1,7 +1,7 @@
 Package: poiscran
 Title: Attach R Packages used by Poison Consulting
-Version: 0.3.2
-Date: 2017-01-13
+Version: 0.3.3
+Date: 2017-01-23
 Authors@R: person("Joe", "Thorley", email = "joe@poissonconsulting.ca", role = c("aut", "cre"))
 Description: Attaches CRAN and GitHub Packages commonly used in Poison Consulting analyses in the preferred order.
 Depends:
@@ -16,6 +16,7 @@ Depends:
     ggplot2,
     ggrepel,
     knitr,
+    kootqlt,
     markdown,
     poisix,
     poisplot,
@@ -37,6 +38,7 @@ Depends:
     tmbr,
     jmbr
 Remotes:
+    poissonconsulting/kootqlt,
     poissonconsulting/poisix,
     poissonconsulting/poisutils,
     poissonconsulting/poisplot,
