@@ -2,10 +2,6 @@ language: R
 sudo: required
 cache: packages
 
-r:
-  - release
-  - devel
-
 apt_packages:
   - libudunits2-dev
 
