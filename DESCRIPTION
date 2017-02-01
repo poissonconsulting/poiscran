@@ -19,6 +19,7 @@ Depends:
     kootqlt,
     markdown,
     poisix,
+    poismap,
     poisplot,
     poisutils,
     plyr,
@@ -40,6 +41,7 @@ Depends:
 Remotes:
     poissonconsulting/kootqlt,
     poissonconsulting/poisix,
+    poissonconsulting/poismap,
     poissonconsulting/poisutils,
     poissonconsulting/poisplot,
     poissonconsulting/subfoldr,
