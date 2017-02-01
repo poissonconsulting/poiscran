@@ -1,6 +1,5 @@
-language: R
+language: r
 sudo: required
-cache: packages
 dist: trusty
 
 # https://github.com/travis-ci/travis-ci/issues/6850
