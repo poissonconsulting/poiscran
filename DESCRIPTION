@@ -51,4 +51,4 @@ SystemRequirements:
     JAGS (>= 4.2.0)
 License: MIT + file LICENSE
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
